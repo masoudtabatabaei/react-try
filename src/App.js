@@ -1,11 +1,11 @@
 import './App.css';
-import { Slogan } from './Slogan';
+import Car from './Car';
 
 function App(props) {
   return (
     <div className="App-header">
-      <p>Hello {props.name}</p>
-      <Slogan/>
+      <p>Hello I am {props.name}</p>
+      <Car/>
     </div>
   );
 }
